@@ -31,8 +31,8 @@ body {
 .photo {
   margin: 5px;
   border: 5px;
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   align-items: center;
 }
 
@@ -40,16 +40,28 @@ h1.words {
   font-size: 90px;
   font-style: italic;
   font-weight: bold;
-  background-size: cover;
 }
 
 h2.words {
-  font-size: 60px;
+  font-size: 40px;
   font-style: italic;
-  font-weight: bold;
-  background-size: cover;
+  font-weight:bold;
 }
 
+.tagline {
+  font-size: 30px;
+  font-weight:500;
+  font-style: oblique;
+}
+
+.header {
+  padding: 50px;
+  background-color: lemonchiffon;
+  text-align: center;
+  align-items: center;
+  font-size: 40px;
+  
+}
 
 
 /* .temp {
