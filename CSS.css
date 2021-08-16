@@ -22,7 +22,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: local;  
-  background-size: 1200px 1200px;
+  background-size: 60rem;
   background-clip: content-box;
 
 }
@@ -56,11 +56,16 @@ h2.words {
 
 .header {
   padding: 50px;
-  background-color: lemonchiffon;
+  background-color: rgb(219, 44, 0);
   text-align: center;
   align-items: center;
   font-size: 40px;
   
+}
+
+.tables {
+  -webkit-border-horizontal-spacing: 50px;
+  -webkit-border-vertical-spacing: 5px;
 }
 
 
