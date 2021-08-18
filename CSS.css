@@ -90,6 +90,7 @@ h2.words {
 
 .navbar {
   width: 100%;
+  height: 50px;
   position:sticky;
   top:0;
   background-color: #555;
@@ -98,9 +99,18 @@ h2.words {
 }
 
 .navbar a {
-  float: left;
+  float: right;
   padding: 12px;
   color: white;
-  text-decoration: none;
+  text-decoration:none;
   font-size: 17px;
+}
+
+.navbar h1 {
+  text-align: center;
+  float: left;
+  padding: 0px;
+  color: white;
+  text-decoration:none;
+  font-size: 22px;
 }
