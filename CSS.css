@@ -10,13 +10,6 @@ body {
   font-family: "Lato";
   font-size: 100%; 
   overflow-y: scroll;  
- -ms-text-size-adjust: 100%; 
- -webkit-text-size-adjust: 100%; 
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; 
-  text-rendering: optimizeLegibility;
   background-color: lavenderblush;
   background-image: url("Assets/nitklogo.png");
   background-position: center;
