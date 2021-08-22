@@ -10,6 +10,229 @@
     <meta name="author" content="Diptesh Banerjee">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="CSS.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-family: "Lato";
+            font-size: 100%;
+            overflow-y: scroll;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
+            background-color: lavenderblush;
+            background-image: url("Assets/nitklogo.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: local;
+            background-size: 60rem;
+            background-clip: content-box;
+            zoom: 100%;
+        }
+
+
+        .photo {
+            margin: 5px;
+            border: 5px;
+            width: 200px;
+            height: 200px;
+            align-items: center;
+        }
+
+        h1.words {
+            font-size: 90px;
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        h2.words {
+            font-size: 40px;
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        .tagline {
+            font-size: 30px;
+            font-weight: 500;
+            font-style: oblique;
+        }
+
+        .header {
+            padding: 50px;
+            background-color: rgb(219, 44, 0);
+            text-align: center;
+            align-items: center;
+            font-size: 40px;
+
+        }
+
+        .tables {
+            -webkit-border-horizontal-spacing: 50px;
+            -webkit-border-vertical-spacing: 5px;
+        }
+
+        .sidenav {
+            height: 100%;
+            width: 200px;
+            position: fixed;
+            display: inline-block;
+            z-index: 0;
+            top: 42px;
+            left: 0;
+            background-color: rgb(0, 209, 209);
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+
+        .sidenav a {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #573f14;
+            display: block;
+        }
+
+        .navbar {
+            width: 100%;
+            height: 50px;
+            position: sticky;
+            top: 0;
+            background-color: #555;
+            overflow: auto;
+            z-index: 1;
+        }
+
+        .navbar a {
+            float: right;
+            padding: 12px;
+            color: white;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .navbar h1 {
+            text-align: center;
+            float: left;
+            padding: 0px;
+            color: white;
+            text-decoration: none;
+            font-size: 22px;
+        }
+
+        input,
+        select {
+            align-items: center;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        input {
+            width: calc(300px);
+            padding: 5px;
+        }
+
+        select {
+            width: 50%;
+            padding: 7px 0;
+            background: transparent;
+        }
+
+        .item:hover p,
+        .question:hover p,
+        .question label:hover,
+        input:hover::placeholder {
+            color: #095484;
+        }
+
+        .item input:hover,
+        .item select:hover {
+            border: 1px solid transparent;
+            box-shadow: 0 0 5px 0 #095484;
+            color: #095484;
+        }
+
+        .item {
+            position: relative;
+            margin: 10px 0;
+        }
+
+        .question input {
+            width: auto;
+            margin: 0;
+            border-radius: 50%;
+        }
+
+        .question input,
+        .question span {
+            vertical-align: middle;
+        }
+
+        .question label {
+            display: inline-block;
+            margin: 5px 20px 15px 0;
+        }
+
+        .btn-block {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        button {
+            width: 150px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background: #095484;
+            font-size: 16px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0666a3;
+        }
+
+        @media (min-width: 200px) {
+
+            .name-item,
+            .city-item {
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+
+            .name-item input,
+            .city-item input {
+                width: calc(200px);
+            }
+
+            .city-item select {
+                width: calc(200px);
+            }
+
+            .city-input {
+                width: calc(800px);
+            }
+        }
+
+        .table {
+            text-align: center;
+            text-overflow: clip;
+        }
+
+        .table_class {
+            box-sizing: border-box;
+            padding: 10px;
+        }
+    </style>
 </head>
 
 <body>
