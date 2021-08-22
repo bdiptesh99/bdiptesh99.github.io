@@ -24,7 +24,7 @@ body {
   background-attachment: local;  
   background-size: 60rem;
   background-clip: content-box;
-
+  zoom: 90%;
 }
 
 
@@ -70,8 +70,9 @@ h2.words {
 
 .sidenav {
   height: 100%;
-  width: 180px;
+  width: 200px;
   position: fixed;
+  display: inline-block;
   z-index: 0;
   top: 42px;
   left: 0;
@@ -190,4 +191,10 @@ input, select {
 
 .table {
   text-align: center;
+  text-overflow: clip;
+}
+
+.table_class {
+  box-sizing: border-box;
+  padding: 10px;
 }
